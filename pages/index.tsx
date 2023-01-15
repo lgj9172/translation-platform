@@ -1,5 +1,7 @@
-import { Button } from "@mantine/core";
+import MainLayout from "@/layouts/MainLayout";
 
-export default function Home() {
-  return <Button>Settings</Button>;
+export default function Index() {
+  return <div />;
 }
+
+Index.getLayout = MainLayout;
