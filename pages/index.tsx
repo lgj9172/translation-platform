@@ -1,3 +1,5 @@
+import { Button } from "@mantine/core";
+
 export default function Home() {
-  return <button type="button">start</button>;
+  return <Button>Settings</Button>;
 }
