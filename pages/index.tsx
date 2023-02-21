@@ -12,10 +12,13 @@ export default function Index() {
         <Anchor>회원가입 페이지</Anchor>
       </Link>
       <Link href="/find-account" passHref legacyBehavior>
-        <Anchor>이메일/비밀번호 찾기</Anchor>
+        <Anchor>이메일 비밀번호 찾기</Anchor>
       </Link>
       <Link href="/renew-password" passHref legacyBehavior>
         <Anchor>비밀번호 재설정 페이지</Anchor>
+      </Link>
+      <Link href="/update-account" passHref legacyBehavior>
+        <Anchor>프로필 수정 페이지</Anchor>
       </Link>
     </Stack>
   );
