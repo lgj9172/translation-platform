@@ -30,7 +30,8 @@
     "no-use-before-define": "off",
     "@typescript-eslint/no-use-before-define": "off",
     "react/require-default-props": "off",
-    "quotes": ["error", "double"]
+    "quotes": ["error", "double"],
+    "import/prefer-default-export": "off"
   },
   "ignorePatterns": ["tailwind.config.js"]
 }
