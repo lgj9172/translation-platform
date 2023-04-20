@@ -27,7 +27,7 @@ export default function MainHeader() {
               </Button>
             </Link>
             <Link href="/suggest" passHref legacyBehavior>
-              <Button variant="white" compact>
+              <Button variant="white" compact disabled>
                 제안하기
               </Button>
             </Link>

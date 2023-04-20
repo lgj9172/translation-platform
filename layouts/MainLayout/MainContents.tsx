@@ -1,4 +1,4 @@
-import { Container } from "@mantine/core";
+import { Container, Space, Stack } from "@mantine/core";
 import { ReactElement } from "react";
 
 interface MainContentsProps {
@@ -6,5 +6,13 @@ interface MainContentsProps {
 }
 
 export default function MainContents({ page }: MainContentsProps) {
-  return <Container>{page}</Container>;
+  return (
+    <Container>
+      <Stack>
+        <Space />
+        {page}
+        <Space />
+      </Stack>
+    </Container>
+  );
 }
