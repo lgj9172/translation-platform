@@ -31,9 +31,9 @@ export default function App({ Component, pageProps }: AppPropsWithLayout) {
       theme={{
         /** Put your mantine theme override here */
         colorScheme: "light",
-        fontFamily: "'Noto Sans KR', sans-serif",
+        fontFamily: "'Spoqa Han Sans', 'Spoqa Han Sans JP', sans-serif",
         fontFamilyMonospace: "Monaco, Courier, monospace",
-        headings: { fontFamily: "'Noto Sans KR', sans-serif" },
+        headings: { fontFamily: "'Spoqa Han Sans', 'Spoqa Han Sans JP', sans-serif" },
       }}
     >
       <Head>
