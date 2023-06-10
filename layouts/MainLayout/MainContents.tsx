@@ -1,4 +1,3 @@
-import { Container, Space, Stack } from "@mantine/core";
 import { ReactElement } from "react";
 
 interface MainContentsProps {
@@ -7,12 +6,8 @@ interface MainContentsProps {
 
 export default function MainContents({ page }: MainContentsProps) {
   return (
-    <Container>
-      <Stack>
-        <Space />
-        {page}
-        <Space />
-      </Stack>
-    </Container>
+    <div className="container mx-auto">
+      <div className="flex flex-col">{page}</div>
+    </div>
   );
 }
